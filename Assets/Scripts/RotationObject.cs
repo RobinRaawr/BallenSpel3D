@@ -4,11 +4,11 @@ using System.Collections;
 public class RotationObject : MonoBehaviour {
     
     public float speed = 3;
-    Rigidbody body;
+    //Rigidbody body;
 
     void Awake()
     {
-        body = GetComponent<Rigidbody>();
+        //body = GetComponent<Rigidbody>();
     }
 
 	void Start () {
